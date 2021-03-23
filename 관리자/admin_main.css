@@ -1,0 +1,48 @@
+h2 {text-align:left;}
+h3 {text-align:center;}
+p {
+  border-style: solid black;
+  border-width: 2px;
+}
+.box {
+    float:left;
+    margin:5px;
+    padding:5px;
+    border:5px;
+    width: 30%;
+    height: 10em;
+}
+#box1 { border-style: solid;}
+#box2 { border-style: solid;}
+#box3 { border-style: solid;}
+
+div {
+    border: 2px solid black;
+}
+
+.chart {
+
+    margin-top:5px;
+    border: 1px solid black; 
+    width: 100%;
+    text-align: center;
+    align: center;
+}
+
+#chart1 {
+    height: 100px;
+}
+
+#chart2 {
+    height: 300px;
+    border: 2px solid blue;
+}
+
+#chart3 {
+    height: 300px;
+}
+
+#container {
+    margin:20px auto;
+}
+
