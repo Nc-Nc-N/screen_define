@@ -1,0 +1,119 @@
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.header{
+    height: 180px;
+    
+    border-bottom: 1.5px solid gray;
+}
+
+.top_menu{
+    width:1100px;
+    display: flex;
+    margin:auto;
+    justify-content: flex-end;
+    
+}
+
+.top_menu > span {
+    
+    margin : 0 5px;
+
+}
+.main-logo {
+    height: 100px;
+
+    
+}
+
+.home-logo {
+    width: 230px;
+    height: 100px;
+ 
+    margin: 0 auto;
+}
+
+.main-bar{
+    height: 50px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.bar-left{
+    background-color:yellow;
+    width: 300px;
+    display: flex;
+}
+.category-drop{
+    background-color: blue;
+    padding-top: 14px;
+}
+.category-btn{
+    margin: auto 45px auto 0;
+    background-color: burlywood;
+    
+
+}
+
+.category-btn:hover{
+    background-color: chartreuse;
+
+}
+
+.leftmenu{
+    margin: auto 45px auto 0;
+    
+}
+
+.search{
+    
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.searchbar{
+    width: 400px;
+    height: 30px;
+    margin: 7px;
+    border-radius: 18px;
+    border: 2px solid black;
+}
+
+.searchbutton{
+    border: none;
+    position: absolute;
+    top:20%;
+    right: 10.5%;
+    background-color: transparent;
+    color: black;
+    font-size: large;
+}
+
+.bar-right{
+    background-color:burlywood;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightmenu {
+    
+    margin: auto 0 auto 30px;
+    
+}
+
+.icon{
+    font-size: x-large;
+    margin: auto 0 auto 28px;
+}
+
+a:link{
+    text-decoration: none;
+}
