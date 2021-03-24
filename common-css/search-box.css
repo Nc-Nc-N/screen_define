@@ -1,0 +1,32 @@
+/* 검색 css */
+.search-input {
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    padding: 0 0 0 20px;
+    float: left;
+}
+
+.search-form {
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+    background: rgb(245, 244, 244);
+}
+
+.search-button {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.fa-search {
+    color: rgb(71, 71, 71);
+}
