@@ -138,8 +138,8 @@ th, td {
 
 .pagination {
     display: inline-block;
-    position:absolute;
-    left:43%;
+    position:relative;
+    left:20%;
 }
 
 
