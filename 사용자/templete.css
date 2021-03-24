@@ -1,0 +1,49 @@
+#container{
+    width:1000px;
+    height:1000px;
+    background-color:khaki;
+    margin: auto;
+}
+.space{
+    height:65px;
+    width:1000px;
+    background-color: transparent;
+}
+.main{
+    width:1000px;
+    height:935px;
+    
+    background-color: lightgreen;
+}
+
+.menuname{
+    height:80px;
+    width:1000px;
+    background-color:yellow;
+}
+
+.menubody{
+    height:855px;
+    width:1000px;
+    background-color:aqua;
+    display: flex;
+}
+
+.sidebarspace{
+    height:855px;
+    width:200px;
+    background-color:coral;
+}
+
+.sidebar{
+    height:420px;
+    width:200px;
+    background-color:dodgerblue;
+}
+
+.content{
+    height:855px;
+    width:750px;
+    background-color:olive;
+    margin: 0 0 0 50px;
+}
