@@ -7,7 +7,7 @@
 .space{
     height:65px;
     width:1000px;
-    background-color: transparent;
+    background-color: white;
 }
 .main{
     width:1000px;
@@ -16,10 +16,22 @@
     background-color: lightgreen;
 }
 
-.menuname{
+.menuhead{
     height:80px;
     width:1000px;
     background-color:yellow;
+    display: flex;
+    align-items: center;
+}
+
+.menuname{
+    width: 200px;
+    /* background-color: brown; */
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menubody{
@@ -41,9 +53,29 @@
     background-color:dodgerblue;
 }
 
+.bar{
+    height:70px;
+    width:200px;
+    background-color: white;
+    border:  1px solid gray;
+    box-shadow: 3px 3px 3px gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.bar > span {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.bar > i {
+    margin-left : 60px;
+}
 .content{
     height:855px;
     width:750px;
-    background-color:olive;
+    background-color:wheat;
     margin: 0 0 0 50px;
 }
