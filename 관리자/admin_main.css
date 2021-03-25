@@ -1,48 +1,148 @@
-h2 {text-align:left;}
-h3 {text-align:center;}
-p {
-  border-style: solid black;
-  border-width: 2px;
+* {
+    margin: 0;
+    padding: 0;
 }
-.box {
-    float:left;
-    margin:5px;
-    padding:5px;
-    border:5px;
-    width: 30%;
-    height: 10em;
-}
-#box1 { border-style: solid;}
-#box2 { border-style: solid;}
-#box3 { border-style: solid;}
-
-div {
-    border: 2px solid black;
-}
-
-.chart {
-
-    margin-top:5px;
-    border: 1px solid black; 
+#jb-container {
     width: 100%;
-    text-align: center;
-    align: center;
 }
 
-#chart1 {
-    height: 100px;
+#jb-content {
+    min-width: 700px;
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-left: 5px;
+    /* float: left; */
 }
 
-#chart2 {
-    height: 300px;
-    border: 2px solid blue;
+#jb-sidebar {
+    min-width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    margin-right: 5px;
+    /* float: left; */
+    background-color: rgb(255, 88, 93);
+    color: white;
+}
+#jb-footer {
+    clear: both;
+    padding: 20px;
+    border: 1px solid #bcbcbc;
 }
 
-#chart3 {
-    height: 300px;
+#mycon {
+    display: flex;
+    justify-content:space-around;
+    max-width: 100%;
+    margin-top: 20px;
 }
 
-#container {
-    margin:20px auto;
+#jb-sidebar h2 {
+    margin: 15px;
 }
 
+#menu div {
+    margin: 0 auto;;
+}
+
+#menu a {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#status-board {
+    width:100%;
+    text-align:center;
+    border:2px solid black;
+    border-collapse:collapse;
+}
+
+#status-board th {
+    border: 1px solid black;
+    width: 20%;
+    background-color:rgb(189,187,187);
+}
+
+#status-board td {
+    border: 1px solid black;
+}
+
+#period {
+    float:right; 
+}
+
+/* #svchart{
+    float:left;
+    background-color:grey; 
+    height:250px;
+    margin-bottom: 20px;
+    
+} */
+
+#piechart {
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    display: flex
+}
+
+.menu-container > div {
+    width:33%;
+}
+
+.menu-container > div:not(:last-child) {
+    padding-right: 20px;
+}
+
+.menu-title {
+    border: 1px solid rgb(189,187,187);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-title > div {
+    margin: 0 10px;
+}
+
+.article {
+    border-bottom: 2px solid rgb(189, 187, 187);
+}
+
+ /* 버튼 css */
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+}
+
+.btn {
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    padding: 8px 0;
+    background-color: rgb(255, 88, 93);
+    color: white;
+}
+
+.btn-active {
+    background-color: rgb(255, 88, 93);
+    color: white;
+}
+
+.btn-disabled {
+    background-color: rgb(188, 188, 188);
+    color: rgb(55, 55, 55);
+}
+
+.dark {
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+ /* 버튼 css *
