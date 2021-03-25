@@ -5,10 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
-        <link rel="stylesheet" href="button.css" type="text/css">
-        <link rel="stylesheet" href="pagination.css" type="text/css">
-        <link rel="stylesheet" href="search-box.css" type="text/css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="button.css" type="text/css" />
+        <link rel="stylesheet" href="pagination.css" type="text/css" />
+        <link rel="stylesheet" href="search-box.css" type="text/css" />
     </head>
     <body>
         <h2>Buttons</h2>
@@ -23,15 +26,22 @@
 
         <h2>inputs</h2>
 
-        <form class="search-form">
-            <div>
-                <input type="text" class="search-input" />
+        <div class="search-area">
+            <select class="search-select">
+                <option>전체</option>
+                <option>상품코드</option>
+                <option>상품명</option>
+            </select>
+            <form class="search-form">
+                <div>
+                    <input type="text" class="search-input" />
 
-                <button type="submit" class="search-button">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-        </form>
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
 
         <h2>pagination</h2>
 
@@ -45,6 +55,5 @@
             <a href="#">6</a>
             <a href="#">&gt;</a>
         </div>
-
     </body>
 </html>
