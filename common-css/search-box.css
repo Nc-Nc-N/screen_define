@@ -42,3 +42,12 @@
 .search-area {
     display: flex;
 }
+
+.date-search input {
+    border: none;
+    width: 130px;
+    height: 30px;
+    background-color: rgb(245, 244, 244);
+    border-radius: 5px;
+    color: rgb(71, 71, 71);
+}
