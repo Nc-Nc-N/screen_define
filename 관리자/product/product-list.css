@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
+    max-width: 1000px;
+    height: fit-content;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-left: 5px;
+}
+
+#sidebar {
+    min-width: fit-content;
+    height: fit-content;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-right: 5px;
+}
+
+#admin-menu {
+    color: white;
+    min-width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+    margin-right: 5px;
+    background-color: rgb(255, 88, 93);
+}                          
+
+#admin-memo {
+    margin-top: 10px;
+    width: 95%;
+    min-height: 150px;
+    padding: 5px;
+    background-color: gainsboro;
+    border: none;
+    outline: none;
+}
+
+#memo {
+    border: none;
+    outline: none;
+    width: 95%;
+    height: 150px;
+    overflow: visible;
+    background-color: rgba(0, 0, 0, 0);
+    resize: none;
+}
+
+#content {
+    display: flex;
+    justify-content:space-around;
+    max-width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+#sidebar h2 {
+    margin: 15px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    border-bottom: 1.5px solid gainsboro;
+}
+
+#menu div {
+    margin: 0 auto;
+}
+
+#menu a {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(71, 71, 71);
+}
+
+#menu a.active {
+    color: rgb(255, 88, 93);
+}
+
+.search-area {
+    justify-content: flex-end;
+}
+
+.product {
+    margin-top: 20px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+}
+
+.product-img {
+    width: 120px;
+    height: 110px;
+}
+
+.product-info {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.p {
+    font-size: 15px;
+    margin: 2px;
+    color: rgb(71, 71, 71);
+}
+
+.category {
+    font-size: 13px;
+    /* font-weight: 600; */
+    color: rgb(112, 112, 112);
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.desc-title {
+    font-size: 13px;
+    margin-top: 5px;
+    color: rgb(112, 112, 112);  
+}
+
+.desc {
+    font-size: 13px;
+    color: rgb(112, 112, 112);  
+}
+
+.price {
+    margin-top: 5px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 40px 0;
+}
