@@ -5,7 +5,7 @@
 #header{
     height: 180px;
     
-    border-bottom: 1.5px solid gray;
+    border-bottom: 1.5px solid gainsboro;
 }
 
 .top_menu{
@@ -44,12 +44,12 @@
 }
 
 .bar-left{
-    background-color:yellow;
+    /* background-color:yellow; */
     width: 275px;
     display: flex;
 }
 .category-drop{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     width: 125px;
 }
