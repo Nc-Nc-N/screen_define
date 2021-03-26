@@ -33,6 +33,10 @@
     margin: 0 auto;
 }
 
+.home-logo > img {
+    width: 80%;
+}
+
 .main-bar{
     height: 50px;
     width: 1000px;
