@@ -65,7 +65,7 @@
 }
 
 .bar > div {
-    width: 50%;
+    width: 70%;
     margin-left: 20px;
     font-size: 20px;
     font-weight:bold;
@@ -74,7 +74,7 @@
 }
 
 .bar > i {
-    margin-left : 40px;
+    margin-left : 0px;
 }
 
 .abstracts{
