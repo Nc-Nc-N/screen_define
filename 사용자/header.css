@@ -5,7 +5,7 @@
 #header{
     height: 180px;
     
-    border-bottom: 1.5px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
 }
 
 .top_menu{
@@ -31,6 +31,10 @@
     width: 230px;
     height: 100px;
     margin: 0 auto;
+}
+
+.home-logo > img {
+    width: 80%;
 }
 
 .main-bar{
