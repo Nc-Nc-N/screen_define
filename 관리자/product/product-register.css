@@ -4,146 +4,122 @@
     color: rgb(71, 71, 71);
 }
 
-.detail-content {
+#register-content {
     display: flex;
     flex-direction: column;
-    background-color: rgb(235, 235, 235);
+    justify-content: space-around;
+    background-color: rgb(240, 240, 240);
     width: 500px;
-    height: fit-content;
+    height: 800px;
     padding: 20px;
+}
+
+#register-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#register-table label {
+    font-weight: 600;
     font-size: 18px;
 }
 
-.detail-content label {
-    font-weight: bold;
+#register-table tr {
+    border-bottom: 1px solid gray;
 }
 
-.detail-content h2 {
-    margin-bottom: 30px;
+.category-div span {
+    font-size: 18px;
 }
 
-.detail-item {
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px 0 10px 0;
-    border-bottom: 1px solid rgb(172, 172, 172);
+#name-tr td, #category-tr td, #name-tr td, #price-tr td, #decs-tr td, #img-tr td {
+    padding-top: 10px;
 }
 
-.item-last {
-    border: none;
+.name-div, .category-div, .price-div, .rate-div, .decs-div, .img-div {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
 }
 
-.detail-item-double {
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px 0 10px 0;
-    border-bottom: 1px solid rgb(172, 172, 172);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.detail-item-double > div {
-    width: 45%;
-}
-
-.detail-item-double span {
-    font-size: 16px;
-
-}
-
-.detail-item-double input {
-    border: 1px solid rgb(172, 172, 172);
-    outline: none;
-    height: 30px;
-    margin: 15px auto 0 auto;
-}
-
-.detail-category {
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    margin: 15px auto 0 auto;
-}
-
-.detail-name {
-    display: flex;
-    flex-direction: column;
-}
-
-.detail-name input {
-    outline: none;
-    width: 80%;
-    height: 30px;
-    margin: 15px auto 0 auto;
-}
-
-.search-select {
-    width: 100px;
-    height: 30px
-}
-
-.dt, .detail-name input, .detail-price input, .detail-rate input {
+.name-div, .price-div, .rate-div, .decs-div {
     background-color: white;
-    border: 1px solid rgb(172, 172, 172);
+    border: 1px solid gray;
     border-radius: 5px;
-    font-size: 16px;
 }
 
-.detail-price {
-    margin-left: 45px;
+.price-div, .rate-div {
+    width: 60%;
 }
 
-.detail-price input {
-    width: 70%;
-    text-align: right;
+.price-div span, .rate-div span {
+    font-size: 14px;
 }
 
-.detail-rate {
-    margin-left: 45px;
-}
-
-.detail-rate input {
-    width: 70%;
-    text-align: right;
-}
-
-.detail-desc {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-}
-
-.desc-content {
-    border: 1px solid rgb(172, 172, 172);
-    border-radius: 5px;
+.name-div input, .price-div input, .rate-div input {
+    border: none;
     outline: none;
-    resize: none;
-    overflow: visible;
-    width: 80%;
-    height: 80px;
-    margin: 0 auto 0 auto;
-    font-size: 16px;
+    width: 90%;
+    height: 35px;
+    font-size: 15px;
 }
 
-.detail-img {
-    margin: 15px 0 0 45px;
+.price-div input, .rate-div input {
+    width: 75%;
+    margin-left: 10px;
+    text-align: right;
 }
 
-.detail-img img {
+.reg-select {
+    background-color: white;
+    border: 1px solid gray;
+    margin: 0;  
     width: 100px;
-    height: 100px;
+    height: 35px;
+    font-size: 15px;
 }
 
-.btn-area {
-    width: 50%;
+.category-div {
+    display:  flex;
+    justify-content: space-between;
+}
+
+#decs-area {
+    border: none;
+    resize: none;
+    outline: none;
+    overflow: visible;
+    width: 90%;
+    min-height: 60px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.img-div img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    border: 1px solid gray;
+}
+
+.img-div input {
+    float: left;
+    margin-top: 10px;
+}
+
+#img-tr {
+    border-bottom: none !important;
+}
+
+#reg-btn-area {
+    width: 60%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    margin: 30px auto 0 auto ;
 }
 
 .remove-img {
     position: relative;
-    bottom: 85px;
-    right: 15px;
+    right: 125px;
 }
