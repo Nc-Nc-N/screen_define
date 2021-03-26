@@ -30,6 +30,18 @@
     background-color: rgb(255, 88, 93);
 }
 
+#content {
+    display: flex;
+    justify-content:space-around;
+    max-width: 100%;
+    height: 600px;
+    margin-top: 20px;
+}
+
+#sidebar h2 {
+    margin: 15px;
+}
+
 #admin-memo {
     margin-top: 10px;
     width: 95%;
@@ -50,18 +62,6 @@
     resize: none;
 }
 
-#content {
-    display: flex;
-    justify-content:space-around;
-    max-width: 100%;
-    height: 600px;
-    margin-top: 20px;
-}
-
-#sidebar h2 {
-    margin: 15px;
-}
-
 #menu {
     display: flex;
     justify-content: center;
@@ -80,12 +80,13 @@
     color: rgb(71, 71, 71);
 }
 
-#menu a.active {
-    color: rgb(255, 88, 93);
+#period {
+    font-size:14px;
 }
 
-.search-area {
-    float: right;
+.inputdate {
+    margin-left:15px;
+    margin-right:15px;
 }
 
 
@@ -128,59 +129,30 @@
     outline: none;
     border: 1px solid rgb(170, 170, 170);
     border-radius: 5px;
-    margin-right: 15px;
+    
 }
 
 .search-area {
     display: flex;
-    float:right;
-    margin-bottom:30px;
+    justify-content:flex-end;
+    align-items:center;
+    margin:20px 0 10px 0;
 }
 
-#t1 {
-    text-align:center;
-    border: 1px solid black;
-    border-collapse:collapse;
-
+.search-select {
+    padding:5px;
+    margin:0 10px;
 }
 
-th {
-    background-color:rgb(189, 187, 187);
-    border:1px solid black; 
-}
-
-td {
-    border:1px solid black; 
-}
-
-.pagination {
-    display: inline-block;
-    position:relative;
-    left:20%;
-}
-
-.pagination a {
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    color: rgb(71, 71, 71);
+.date-search input {
+    border: none;
+    width: 130px;
+    height: 30px;
     background-color: rgb(245, 244, 244);
-    margin: 0 3px 0 3px;
     border-radius: 5px;
+    color: rgb(71, 71, 71);
 }
 
-.pagination a.active {
-    background-color: rgb(255, 88, 93);
-    color: white;
-    border-radius: 5px;
+.piechart img {
+    width:100%;
 }
-
-.pagination a:hover {
-    background-color: rgb(255, 88, 93);
-    color: white;
-    border-radius: 5px;
-}
-
-
-
-

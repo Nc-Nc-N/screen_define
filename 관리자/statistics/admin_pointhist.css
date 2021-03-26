@@ -144,17 +144,18 @@
     margin-bottom:10px;
 }
 
-.inputdate {
-    padding:3px;
-}
-
 .search-select {
     padding:5px;
     margin:0 10px;
 }
 
-.inputdate {
-    margin:0 10px;
+.date-search input {
+    border: none;
+    width: 130px;
+    height: 30px;
+    background-color: rgb(245, 244, 244);
+    border-radius: 5px;
+    color: rgb(71, 71, 71);
 }
 
 #t1 {
@@ -201,8 +202,6 @@ td {
     color: white;
     border-radius: 5px;
 }
-
-
 
 
 
