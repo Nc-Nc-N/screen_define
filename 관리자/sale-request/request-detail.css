@@ -10,7 +10,7 @@
     justify-content: space-around;
     background-color: rgb(240, 240, 240);
     width: 500px;
-    height: 800px;
+    height: fit-content;
     padding: 20px;
 }
 
@@ -27,6 +27,10 @@
 
 .register-table tr {
     border-bottom: 1px solid gray;
+}
+
+#state-tr {
+    border-bottom: none;
 }
 
 .category-div span {
@@ -128,19 +132,14 @@
 }
 
 .img-div {
-    height: 80%;
+    margin-top: 20px;
+    height: 200px;
 }
 
 .img-div img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     float: left;
-    margin-bottom: 10px;
-}
-
-.img-div input {
-    float: left;
-    margin-top: 10px;
 }
 
 #img-tr {
@@ -149,17 +148,12 @@
 
 #img-tr td {
     width: 50%;
-    height: 300px;
+    height: 100px;
 }
 
 #reg-btn-area {
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto 10px auto;
     display: flex;
     justify-content: space-around;
-}
-
-.remove-img {
-    position: relative;
-    right: 40px;
 }

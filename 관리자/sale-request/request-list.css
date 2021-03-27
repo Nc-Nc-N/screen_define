@@ -3,17 +3,10 @@
     padding: 0;
 }
 
-#container {
-    width: 100%;
-}
-
 #content {
-    display: flex;
     justify-content: center;
     min-width: fit-content;
-    max-width: 100%;
     height: fit-content;
-    margin-top: 20px;
     padding: 0 20px 0 20px;
 }
 
@@ -23,67 +16,16 @@
     width: 800px;
     height: fit-content;
     margin: 0 20px 0 20px;
+    padding: 0;
 }
 
 #sidebar {
     min-width: 250px;
-    height: fit-content;
     margin: 0 20px 0 20px;
-}
-
-#admin-menu {
-    color: white;
-    min-width: fit-content;
-    height: fit-content;
-    padding: 20px;
-    margin: 0 auto;
-    background-color: rgb(255, 88, 93);
-}                          
+}                   
 
 #admin-memo {
-    margin-top: 10px;
     width: 250px;
-    min-height: 150px;
-    padding: 5px;
-    background-color: gainsboro;
-    border: none;
-    outline: none;
-}
-
-#memo {
-    border: none;
-    outline: none;
-    width: 95%;
-    height: 150px;
-    overflow: visible;
-    background-color: rgba(0, 0, 0, 0);
-    resize: none;
-}
-
-#sidebar h2 {
-    margin: 15px;
-}
-
-#menu {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 10px 0;
-    padding: 10px 0 10px 0;
-    border-bottom: 1.5px solid gainsboro;
-}
-
-#menu div {
-    margin: 0 auto;
-}
-
-#menu a {
-    font-weight: 600;
-    font-size: 18px;
-    color: rgb(71, 71, 71);
-}
-
-#menu a.active {
-    color: rgb(255, 88, 93);
 }
 
 .search-area {
