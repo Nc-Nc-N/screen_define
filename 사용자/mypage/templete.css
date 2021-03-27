@@ -65,7 +65,7 @@
 }
 
 .bar > div {
-    width: 70%;
+    width: 50%;
     margin-left: 20px;
     font-size: 20px;
     font-weight:bold;
@@ -74,7 +74,7 @@
 }
 
 .bar > i {
-    margin-left : 0px;
+    margin-left : 40px;
 }
 
 .abstracts{
@@ -126,10 +126,12 @@
 
 
 a:visited{
+    text-decoration: none;
     color: black;
 }
 
 a:link{
+    text-decoration: none;
     color: black;
 }
 
