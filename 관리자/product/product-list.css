@@ -26,7 +26,7 @@
 .product-info {
     margin-left: 20px;
     margin-bottom: 10px;
-    width: 60%;
+    width: 80%;
 }
 
 .p {
@@ -37,12 +37,11 @@
 
 .category {
     font-size: 13px;
-    /* font-weight: 600; */
     color: rgb(112, 112, 112);
 }
 
 .title {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
 }
 
@@ -66,3 +65,21 @@
     justify-content: space-between;
     margin: 20px 0 40px 0;
 }
+
+a.detail-link {
+    color: rgb(71, 71, 71);
+}
+
+a.detail-link:link {
+    text-decoration: none;
+}
+
+a.detail_link:visited {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+a.detail-link:active {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+} 
