@@ -133,16 +133,16 @@
     /* background-color: chocolate; */
 }
 
-a:link{
+.header-a:link{
     text-decoration: none;
     color: black;
 }
 
-a:visited{
+.header-a:visited{
     color: black;
 }
 
-a:hover{
+.header-a:hover{
     color: rgb(255,88,93);
 }
 
