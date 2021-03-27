@@ -133,16 +133,16 @@
     /* background-color: chocolate; */
 }
 
-.header-a:link{
+.login-panel:link{
     text-decoration: none;
     color: black;
 }
 
-.header-a:visited{
+.login-panel:visited{
     color: black;
 }
 
-.header-a:hover{
+.login-panel:hover{
     color: rgb(255,88,93);
 }
 
